@@ -155,7 +155,7 @@ const Signup = () => {
                             {/* <ForgotPasswordLink to={"/login"}>Alredy have an account ?</ForgotPasswordLink> */}
                             {/* <SignUpLink to={"/login"}>Alredy have an account ?</SignUpLink> */}
                         {/* </ExtraAuthBtnsContainer> */}
-                    </AuthButtonContainer>
+                    </AuthButtonContainer> 
                 </AuthDetailsContainer>
             </SectionContainer>
         )
