@@ -151,10 +151,10 @@ const Signup = () => {
                     <AuthError>{authError}</AuthError>
                     <AuthButtonContainer>
                         <AuthBtn>SUBMIT DETAILS</AuthBtn>
-                        <ExtraAuthBtnsContainer>
-                            <ForgotPasswordLink to={"/login"}>Alredy have an account ?</ForgotPasswordLink>
+                        {/* <ExtraAuthBtnsContainer> */}
+                            {/* <ForgotPasswordLink to={"/login"}>Alredy have an account ?</ForgotPasswordLink> */}
                             {/* <SignUpLink to={"/login"}>Alredy have an account ?</SignUpLink> */}
-                        </ExtraAuthBtnsContainer>
+                        {/* </ExtraAuthBtnsContainer> */}
                     </AuthButtonContainer>
                 </AuthDetailsContainer>
             </SectionContainer>
